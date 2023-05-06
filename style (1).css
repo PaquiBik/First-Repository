@@ -11,10 +11,10 @@ div {text-align: center;}
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #f80dd9;
-    --botao-azul: #ff0000;
+    --botao-azul: #ff6961;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #002d63;
+    --botao-azul-efeito: #ff0000;
 }
 
 
