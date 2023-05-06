@@ -67,3 +67,9 @@ body {
     align-items: center;
     text-align: center;
 }
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
