@@ -3,9 +3,9 @@ body{background-color: #8bfd80};
 
 
 div {text-align: center;}
-.estudante-div {}
-.estudante-titulo {}
-.estudante-imagem {width: 120px;: auto;}
+.estudante-div {text-align: center;}
+.estudante-titulo {text-align: center;}
+.estudante-imagem {width: 120px; text-align: center;margin: auto;}
 
 :root {
     --branco-principal: #FFFFFF;
@@ -220,3 +220,39 @@ body {
 .lista__link a:active {
     color: purple;
 }
+
+
+
+
+#estudantes {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .grid-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
