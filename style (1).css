@@ -57,7 +57,7 @@ body {
     color: white;
     display: flex;
     justify-content: 29;
-    align-items: center;
+
     padding: 24px 0;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .rodape2{
     background-color: black;
-    text-align: center;
+  
 }
 
 
