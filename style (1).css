@@ -3,9 +3,9 @@ body{background-color: #8bfd80};
 
 
 div {text-align: center;}
-.estudante-div {text-align: center;}
-.estudante-titulo {text-align: center;}
-.estudante-imagem {width: 120px; text-align: center;margin: auto;}
+.estudante-div {}
+.estudante-titulo {}
+.estudante-imagem {width: 120px;: auto;}
 
 :root {
     --branco-principal: #FFFFFF;
