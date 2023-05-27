@@ -299,7 +299,9 @@ body {
     font-size: 1.5em;
 }
 .field{
+    text-align: center;
     width: 100%;
+    display: flex;
     
 }
 .field label, 
@@ -334,9 +336,9 @@ textarea{
     resize: none;
 }
 input[type=submit]{
+    height: 35px;
     display: block;
     background-color:
-    height: 35px;
     border: none;
     outline: 0;
     cursor: pointer;
