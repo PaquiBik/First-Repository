@@ -300,7 +300,6 @@ body {
 }
 .field{
     width: 100%;
-    display: flex;
     
 }
 .field label, 
