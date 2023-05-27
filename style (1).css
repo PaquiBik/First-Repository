@@ -342,10 +342,8 @@ input[type=submit]{
     cursor: pointer;
     width: 100px;
     text-align: center;
-    border-radius: 15px;
 }
 .alinhar {
-    text-align: center;
     display: inline
     
     ;
