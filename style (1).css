@@ -309,9 +309,7 @@ body {
 }
 .field label, 
 .field span{
-    align-items: center;
-    text-align: center;
-    display: flex;
+    display: inline;
     padding-left: 10px;
     font-size: 1.1em;
     display: block;
