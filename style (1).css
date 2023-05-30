@@ -291,11 +291,13 @@ body {
 
  
   .formulario{
+    color: #000000;
     width: 400px;
     padding: 30px;
     border: 1;
 }
 .formulario p{
+    color: #000000;
     width: 100%;
     font-size: 1.5em;
 }
@@ -311,6 +313,7 @@ body {
     width: 100%;
 }
 .radiobox label{
+    color: #000000;
     width: auto;
     display: inline-block;
 }
@@ -342,6 +345,7 @@ input[type=submit]{
     cursor: pointer;
     width: 100px;
     text-align: center;
+    
 }
 .alinhar {
     display: inline
