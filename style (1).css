@@ -276,8 +276,7 @@ body {
   }
   
   .imagem {
-    padding: 50%;
-    margin: 50%;
+    width: 60%;
     flex: 1;
     text-align: right;
   }
