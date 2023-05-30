@@ -8,3 +8,7 @@ function changeColor() {
 }
 
 setInterval(changeColor, 3000);
+
+setTimeout(function() {
+  clearInterval(changeColorInterval);
+}, 11000);
