@@ -1,4 +1,4 @@
-body{background-color: #8bfd80};
+body{background-color: #e2e2e2};
 .arroz {width: 80%;}
 
 
@@ -24,7 +24,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(96, 221, 96);
+    background-color: #e2e2e2;
     padding: 20px 20px;
   }
   
@@ -225,7 +225,7 @@ body {
 
 
 #estudantes {
-    background-color: #a9b406;
+    background-color: #6b4900;
     padding: 20px;
   }
   
@@ -259,7 +259,7 @@ body {
 
 
   #rodape {
-    background-color: orange;
+    background-color: rgb(206, 156, 64);
     color: white;
     padding: 20px;
   }
