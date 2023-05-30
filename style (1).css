@@ -323,7 +323,7 @@ textarea{
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 
+    border: 1
 }
 
 textarea{
@@ -335,7 +335,7 @@ textarea{
 input[type=submit]{
     height: 35px;
     display: block;
-    background-color: #f80dd9;
+    background-color: #0df8e5;
     border: none;
     outline: 0;
     cursor: pointer;
