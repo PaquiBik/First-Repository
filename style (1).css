@@ -327,6 +327,7 @@ textarea{
 }
 
 textarea{
+    background-color: #0df8e5;
     line-height: 20px;
     padding: 10px;
     height: 90px;
