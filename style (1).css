@@ -309,11 +309,13 @@ body {
 }
 .field label, 
 .field span{
+    outline: none;
     display: inline;
     padding-left: 10px;
     font-size: 1.1em;
     display: block;
     width: 100%;
+    resize: none;
 }
 .radiobox label{
     color: #000000;
@@ -373,10 +375,5 @@ h1{
     text-shadow: 0 0 80px #34f80d;
     text-shadow: 0 0 160px #34f80d;
 }
-.alinharfeedback{
-display: flex;
-text-align: center;
-align-items: center;
 
-}
 
