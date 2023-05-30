@@ -358,6 +358,7 @@ h1{
 }
 
 .neon{
+    border-box font: 1em sans-serif;;
     -webkit-box-reflect: below 1px linear-grandient(transparent,rgba(0,0,0,0.07));
     line-height: 0.7em;
     letter-spacing: 15px;
