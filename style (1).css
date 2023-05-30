@@ -293,7 +293,7 @@ body {
   .formulario{
     width: 400px;
     padding: 30px;
-    border:
+    border: 1;
 }
 .formulario p{
     width: 100%;
@@ -325,9 +325,7 @@ textarea{
     border-radius: 15px;
     border: 
 }
-input#nao{
-    
-}
+
 textarea{
     line-height: 20px;
     padding: 10px;
@@ -337,7 +335,7 @@ textarea{
 input[type=submit]{
     height: 35px;
     display: block;
-    background-color:
+    background-color: #f80dd9;
     border: none;
     outline: 0;
     cursor: pointer;
@@ -358,7 +356,6 @@ h1{
 }
 
 .neon{
-    border-box-reflect:var(--botao-azul-efeito);
     -webkit-box-reflect: below 1px linear-grandient(transparent,rgba(0,0,0,0.07));
     line-height: 0.7em;
     letter-spacing: 15px;
