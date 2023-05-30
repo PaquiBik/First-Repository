@@ -242,6 +242,7 @@ input[type=submit]{
 
 .neon {
     display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 48px;
     color: #fff;
