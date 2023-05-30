@@ -358,13 +358,13 @@ h1{
 }
 
 .neon{
-    border-box font: 1em sans-serif;;
+    border-box-reflect:var(--botao-azul-efeito);
     -webkit-box-reflect: below 1px linear-grandient(transparent,rgba(0,0,0,0.07));
     line-height: 0.7em;
     letter-spacing: 15px;
-    text-shadow: 0 0 10px #f80dd9;
-    text-shadow: 0 0 20px #f80dd9;
-    text-shadow: 0 0 40px #f80dd9;
-    text-shadow: 0 0 80px #f80dd9;
-    text-shadow: 0 0 160px #f80dd9;
+    text-shadow: 0 0 10px #34f80d;
+    text-shadow: 0 0 20px #34f80d;
+    text-shadow: 0 0 40px #34f80d;
+    text-shadow: 0 0 80px #34f80d;
+    text-shadow: 0 0 160px #34f80d;
 }
