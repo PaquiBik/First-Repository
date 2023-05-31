@@ -76,8 +76,8 @@ body {
 .container__caixa {
   display: flex;
   justify-content: center;
-  text-align: right;
-  align-items: end;
+  text-align: end;
+  align-items: right;
     margin: 0 2em;
 }
 
