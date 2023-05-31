@@ -184,9 +184,36 @@ body {
   width: 100%;
   
 }
+.field label, 
+.field span{
+  display: inline;
+  padding-left: 10px;
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
 
+.radiobox label{
+    color: #000000;
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    outline: none;
+    width: 30%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1
+}
 
 textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background-color: #ffffff;
     line-height: 20px;
     padding: 10px;
