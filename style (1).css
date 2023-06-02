@@ -257,6 +257,7 @@ input[type=submit]{
     text-align: center;
     margin: auto;
     padding: 80px;
+    background-color: #00eaff;
   }
   
   #neon-title {
