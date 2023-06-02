@@ -54,9 +54,17 @@ body {
     vertical-align: middle;
     border-radius:10px;
 }
+.principal container{ 
+  display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
-
-
+.container-caixa{
+  display: flex;
+  justify-content: center;
+  
+}
 
 
 
