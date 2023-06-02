@@ -51,18 +51,20 @@ body {
     margin-bottom: 0.3em;
     border:1px #000000 solid;
     color:rgb(255, 255, 255);
-    vertical-align: middle;
     border-radius:10px;
+    flex-wrap: wrap;
 }
 .principal-container{ 
   display: flex;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .container-caixa{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   
 }
 
