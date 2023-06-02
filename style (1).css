@@ -146,8 +146,6 @@ body {
   
   .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
   }
   
@@ -256,7 +254,7 @@ input[type=submit]{
   header {
     text-align: center;
     margin: auto;
-    padding: 30px;
+    padding: 50px;
   }
   
   #neon-title {
