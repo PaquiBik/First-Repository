@@ -32,7 +32,13 @@ div {text-align: center;}
 
 
 body {
+  display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: 80px;
+
 }
 
 
