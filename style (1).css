@@ -57,12 +57,7 @@ body {
   display: flex;
   align-items: center;
 }
-.principal-container{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  
-}
+
 .container-caixa{
   display: flex;
   justify-content: center;
