@@ -47,13 +47,13 @@ body {
   text-align: center;
     background-color: var(--botao-azul);
     border-radius: 20px;
-    padding: 0.5em;
+    padding: 1em;
     display: block;
     text-decoration: none;
     margin-bottom: 0.6em;
-    border:1px #000000 solid;
+    border:0.2px #000000 solid;
     color:rgb(255, 255, 255);
-    border-radius:10px;
+    border-radius:20px;
 }
 .container {
   display: flex;
