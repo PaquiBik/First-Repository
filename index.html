@@ -1,143 +1,104 @@
 <!DOCTYPE html>
-
-  
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Lavinho</title>
-    <link rel="stylesheet" href="style (1).css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-  <header class="titulolegal">
-  <h1 id="neon-title">The best site</h1>
 
-  <script>
-    // Insira o código JavaScript aqui
-    var title = document.getElementById("neon-title");
-    var colors = ["red", "blue", "purple"];
-    var currentIndex = 0;
-
-    function changeColor() {
-      title.style.color = colors[currentIndex];
-      currentIndex = (currentIndex + 1) % colors.length;
-    }
-
-    setInterval(changeColor, 3000);
-
-    setTimeout(function() {
-      clearInterval(changeColorInterval);
-    }, 11000);
-  </script>
-<section class="principal-container"
-<div class="container__caixa">
-  <h1 class="container__titulo">Divisão de seções:</h1>
-  <img src="" alt="" class="container__imagem">
-  <a href="https://robotica-five.vercel.app/" target="_blank" class="container__botao">Robótica</a>
-  <br>
-  <a href="https://robotica-five.vercel.app/" target="_blank" class="container__botao">Equipe</a>
- <br>
-  <a href="https://robotica-five.vercel.app/" target="_blank" class="container__botao">Equipe</a>
- <br>
-  <a href="https://programacao-pearl.vercel.app/" target="_blank" class="container__botao">programação</a> 
-</div>
-</section>
-</header>
-
+<body class="container-body">
+ <nav>
+  <div>
+    <h1>Site criado</h1>
   
+  </div>
+  <div class="titulo-botao">
+    <!--titulo principal do site"-->
+    <h2 class="texto-botao">
+     quer ir para outro lugar? Clique aqui:
+    </h2>
     
+   <div class="botao-arrumar">
+    <!--botoes que levam aos outros sites-->
+    <a href="https://robotica-five.vercel.app/" class="botao botao1" target="_blank"> robótica</a>
+    <a href="https://programacao-pearl.vercel.app/" class="botao botao1" target="_blank"> programação</a>
+    <a href="h" class="botao botao1" target="_blank"> equipe</a>
     
+   </div>
+   <div>
+ </nav>
     
-  
+
+    <main>
+    <ul>
+      <li>
+        Nos diga o que achou de nosso site e melhorias &#x1F47B.
+      </li> 
+    </ul>
+
+     <div class="container-formulario">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_autoresponse" value="Obrigado pelo seu feedback! Diretamente dito por Fabio.">
 
 
+      <form action="https://formsubmit.co/fabinho.dorakiewicz@gmail.com" method="POST">
+        <div class="formulario">
+        <label for="name">nome:</label> 
+        <input type="name" name="text" required>
+       </div>
+       
+       <div class="formulario">
+        <label for="email">email:</label> 
+        <input type="email" name="email" required>
+      </div>
 
+      <div class="formulario">
+        <label for="assunto">assunto:</label>
+        <textarea name="assunto" id="assunto" required></textarea>
 
-    <section id="estudantes">
-        <h2>Estudantes</h2>
-        <div class="grid-container">
-          <div class="grid-item">
-            <img src="fabio.foto.jpeg" alt="Foto 1">
-            <h3>Fabio D. Alves</h3>
-            <p>Tenho 15 anos, prestes a fazer 16, gosto de jogar jogos de FPS e gosto de programas, como criar este site, porém acabo passando alguma raiva até dar tudo certo e abrir um sorriso.</p>
-          </div>
-          <div class="grid-item">
-            <img src="luiz.foto.jpeg" alt="Foto 2">
-            <h3>Luiz H. Florencio</h3>
-            <p>estudande do CEP, tenho 16 anos, treino tanto na academia e tanto em jogos de FPS, apenas por diversão, almejo cursar ciencias contábeis na FAE.</p>
-          </div>
-          <div class="grid-item">
-            <img src="isa.foto.jpeg" alt="Foto 3">
-            <h3>Isabelle Araújo.</h3>
-            <p>tenho 15 anos, almejo cursar a faculdade de nutrição, uma grande apreciadora da culinária europeia, atleta e campeã da macrorregional de atletismo, representando o colégio estadual do Paraná.</p>
-          </div>
-          <div class="grid-item">
-            <img src="Lucas.foto.jpeg" alt="Foto 4">
-            <h3>lucas ishida</h3>
-            <p>tenho 16 anos, almejo cursar direito na UFPR, gosto de jogar jogos estilo FPS. </p>
-          </div>
-          <div class="grid-item">
-            <img src="andre.foto.jpeg" alt="Foto 5">
-            <h3>André</h3>
-            <p>Tenho 16 anos e estudo no CEP.Gosto muito de  jogos estilo RPG e meu objetivo é cursar Engenharia da Computação na UFPR. e também gosto de praticar natação nas horas vagas.</p>
-          </div>
-        </div>
-      </section>
+        <button type="submit">Send</button>
+      </div>
       
-      <section class="divisao">
-        <body>
-        
-            <form class="formulario" method="post"> 
-                <p> Envie uma mensagem preenchendo o formulário abaixo:</p>
-                
-                <div class="field">
-                    <label for="nome">Seu Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
-                </div>
-                <div class="field">
-                  <label for="email">Seu E-Mail:</label>
-                  <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
-              </div> 
+   </form>
+
+    </div>
+    <div class="ajuda">     
+      <img class="seta" src="">
+    <ul>
+      <li class="ajuda-opcional">
+        &#x2196 tente puxar, hehe
+      </li>
+     </ul>
+    </div>
+
+  </main>
+
+    <footer>
+
+      
+        <section class="rodape">
+            <!--textos do rodape-->
+            <div class="container-rodape">
+              <div class="texto-rodape">
+                <p>site criado para fins de estudo</p>
+              </div>
+              <div class="texto-rodape">
+                <p>Feito no Colégio Estadual do Paraná.</p>
+              </div>
+              <!--imagem do rodape-->
+              <div class="imagem-rodape">
+                <img src="h">
+              </div>
             </div>
-            <div class="field">
-                <label for="mensagem">Sua mensagem:</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
-            </div>
-        
-            <input type="submit" name="acao" value="Enviar">
-        </form>
+           </section>
 
-        
-        </body>
-        </section>
+    </footer>
 
-      <footer id="rodape">
-        <div class="container">
-          <div class="texto">
-            <p>Site criado para fins de estudo.</p>
-          </div>
-          <div class="texto">
-            <p>Feito no Colégio Estadual do Paraná.</p>
-          </div>
-          <div class="imagem">
-            <img src="colégio.foto.jpeg" alt="colegio.foto">
-          </div>
-        </div>
 
-      <div class="alinhar">
-<head>
-    <title>Formulário HTML</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-</head>
-</html>
-</div>
 
-      </footer>
 
 </body>
-</body>
-</html>
 </html>
