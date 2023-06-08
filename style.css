@@ -61,7 +61,8 @@ footer {
   flex: 1;
 }
 footer img{
-  
+  background-color: transparent;
+  width: min-content;
 }
 
 .botao {
