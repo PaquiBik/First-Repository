@@ -39,7 +39,7 @@ text-align: center;
 top: -20px;
 font-size: 30px;
 }
-img{
+nav img{
   width: 50px;
   display: flex;
   position: relative;
@@ -52,12 +52,16 @@ footer {
     background-color: #fad37e;
     padding: 70px;
 }
+
 .container-rodape {
   display: flex;
  
 }
 .texto-rodape{
   flex: 1;
+}
+footer img{
+  
 }
 
 .botao {
