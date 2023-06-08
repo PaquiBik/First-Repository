@@ -62,7 +62,7 @@ footer {
 }
 footer img{
   background-color: transparent;
-  width: min-content;
+  width: 50%;
 }
 
 .botao {
