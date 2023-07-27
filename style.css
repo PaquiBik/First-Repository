@@ -1,4 +1,4 @@
-@media screen and (min-width: 412px){
+
 
 :root {
   --cor-primaria-botao: rgb(233, 79, 79);
@@ -219,7 +219,7 @@ cursor: pointer;
     left: -33px;
   }
 
-
+  @media screen and (min-width: 1024px){
   <!-- estudantes aba>
 
   #estudantes {
@@ -259,4 +259,4 @@ cursor: pointer;
     margin: 15px;
     font-size: 14px;
   }
-}
+  }
