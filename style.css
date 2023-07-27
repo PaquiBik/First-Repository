@@ -226,6 +226,7 @@ cursor: pointer;
   }
   
   .grid-container {
+    background-color: #02ff24;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
   }
