@@ -1,4 +1,4 @@
-@media screen and (min-width: 1px){}
+@media screen and (min-width: 1024px){
 
 :root {
   --cor-primaria-botao: rgb(233, 79, 79);
@@ -259,3 +259,4 @@ cursor: pointer;
     margin: 15px;
     font-size: 14px;
   }
+}
