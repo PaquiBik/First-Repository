@@ -222,13 +222,16 @@ cursor: pointer;
   }
   
   .grid-item {
-    
+    text-align: center;
   }
   
   .grid-item img {
     width: 50%;
     border-radius: 50%;
     border: 5px solid #6410a8;
+    position:relative;
+    top: -40px;
+    left: 50px;
     
   }
   .grid-item img:hover {
