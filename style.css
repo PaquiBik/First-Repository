@@ -231,12 +231,12 @@ cursor: pointer;
     border: 5px solid #6410a8;
     position:relative;
     top: 5px;
-    left: 75px;
+    left: 85px;
     
   }
   .grid-item img:hover {
     transition: width 0,3s , border 0,3s;
-    width: 80%;
+    width: 60%;
     border: 5px solid #4b0a81;
     
   }
