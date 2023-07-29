@@ -230,6 +230,7 @@ cursor: pointer;
     border-radius: 50%;
     border: 5px solid #6410a8;
     position:relative;
+    top: 5px;
     left: 75px;
     
   }
