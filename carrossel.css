@@ -1,4 +1,7 @@
-
+.carrossel {
+    background-color: aliceblue;
+    padding: 50px;
+}
 
 .carrossel__titulo {
     color: orange;
