@@ -1,10 +1,10 @@
 .carrossel {
-    background-color: #ecd895;
+    background-color: #b1ff84;
     padding: 50px;
 }
 
 .carrossel__titulo {
-    color: orange;
+    color: rgba(0, 0, 0, 0.788);
     text-align: center;
     text-transform: uppercase;
     font-size: 35px;
