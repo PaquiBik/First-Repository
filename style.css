@@ -81,14 +81,16 @@ footer {
   transition-property: border-radius, background-color;
   transition-duration: 2s, 2s;
   width: 80px;
-
+  text-align: center;
+  align-items: center;
 
 }
 
 .botao1 {
   background-color: var(--cor-primaria-botao);
   color: var(--cor-secundária-botao);
-
+  text-align: center;
+  align-items: center;
 
 }
 
