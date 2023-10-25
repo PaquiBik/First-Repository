@@ -68,13 +68,9 @@ footer {
 .texto-rodape {
   flex: 1;
 }
-.sim{
-  align-items: center;
-  text-align: center;
-  align-self: center;
-}
+
 .botao {
- 
+  align-self: center;
   border: 2px solid #000000;
   padding: 15px;
   margin: 10px;
@@ -84,12 +80,12 @@ footer {
   transition-timing-function: cubic-bezier(.15, .89, .85, .26);
   transition-property: border-radius, background-color;
   transition-duration: 2s, 2s;
-  width: 80px;
+  width: 50px;
 
 }
 
 .botao1 {
- 
+  align-self: center;
   background-color: var(--cor-primaria-botao);
   color: var(--cor-secundária-botao);
 
