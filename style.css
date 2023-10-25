@@ -225,21 +225,21 @@ button[type=submit]:hover {
   position: relative;
   left: -33px;
 }
-
+@media screen and (max-width: 844px){
 #estudantes {
   background-color: #a8e93f;
   padding: 20px;
 }
-
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
-@media screen and (max-width: 844px){
+
 .grid-item {
   text-align: center;
 }
-}
+
 .grid-item img {
   width: 50%;
   border-radius: 50%;
