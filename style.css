@@ -70,6 +70,8 @@ footer {
 }
 .sim{
   align-items: center;
+  text-align: center;
+  align-self: center;
 }
 .botao {
  
