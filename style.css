@@ -73,16 +73,16 @@ footer {
 }
 .botao {
  
-  border: 2px solid #000000;
-  padding: 15px;
-  margin: 10px;
+  border: 1px solid #000000;
+  padding: 12px;
+  margin: 8px;
   cursor: pointer;
   transition: background 0.3;
   text-decoration: none;
   transition-timing-function: cubic-bezier(.15, .89, .85, .26);
   transition-property: border-radius, background-color;
   transition-duration: 2s, 2s;
-  width: 10px;
+
 
 }
 
