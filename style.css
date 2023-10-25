@@ -105,20 +105,21 @@ footer {
 
 .texto-botao {
   display: flex;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
 
 .titulo-botao {
-  display: flex;
+  
 
 }
 
 .botao-arrumar {
-  display: flex;
+  
   
 }
-}
+
 .container-formulario {
   display: flex;
   flex-direction: column;
