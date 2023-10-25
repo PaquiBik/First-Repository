@@ -225,7 +225,7 @@ button[type=submit]:hover {
   position: relative;
   left: -33px;
 }
-@media screen and (max-width 844px){
+@media screen and (max-width: 844px){
 #estudantes {
   background-color: #a8e93f;
   padding: 20px;
