@@ -225,7 +225,7 @@ button[type=submit]:hover {
   position: relative;
   left: -33px;
 }
-@media screen and (max-width: 844px){
+
 #estudantes {
   background-color: #a8e93f;
   padding: 20px;
@@ -235,7 +235,7 @@ button[type=submit]:hover {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
-
+@media screen and (max-width: 844px){
 .grid-item {
   text-align: center;
 }
@@ -247,7 +247,6 @@ button[type=submit]:hover {
   position: relative;
   top: 5px;
   left: 85px;
-
 }
 
 .grid-item img:hover {
