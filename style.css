@@ -68,7 +68,7 @@ footer {
 .texto-rodape {
   flex: 1;
 }
-@media screen and (min-width: 100px) and (max-width: 800px){
+
 .botao {
 
   border: 2px solid #000000;
