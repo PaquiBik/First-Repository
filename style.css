@@ -101,14 +101,12 @@ footer {
   color: var(--cor-primaria-botao);
   background-color: var(--cor-secundária-botao);
 }
-@media screen and (max-width 540px){
+
 
 .texto-botao {
   display: flex;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  position: relative;
-  top: -50px;
-  left: 770px;
+  
 }
 
 .titulo-botao {
@@ -118,8 +116,7 @@ footer {
 
 .botao-arrumar {
   display: flex;
-  position: relative;
-  left: 390px;
+  
 }
 }
 .container-formulario {
