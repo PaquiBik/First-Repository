@@ -101,7 +101,7 @@ footer {
   color: var(--cor-primaria-botao);
   background-color: var(--cor-secundária-botao);
 }
-
+@media screen and (max-width 800px){
 
 .texto-botao {
   display: flex;
