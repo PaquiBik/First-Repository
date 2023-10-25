@@ -244,9 +244,7 @@ button[type=submit]:hover {
   width: 50%;
   border-radius: 50%;
   border: 5px solid #6410a8;
-  position: relative;
-  top: 5px;
-  left: 85px;
+ 
 }
 
 .grid-item img:hover {
