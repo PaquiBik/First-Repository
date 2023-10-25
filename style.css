@@ -82,7 +82,7 @@ footer {
   transition-timing-function: cubic-bezier(.15, .89, .85, .26);
   transition-property: border-radius, background-color;
   transition-duration: 2s, 2s;
-  width: 50px;
+  width: 10px;
 
 }
 
