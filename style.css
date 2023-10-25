@@ -68,7 +68,7 @@ footer {
 .texto-rodape {
   flex: 1;
 }
-
+@media screen and (max-width: 400px){
 .botao {
 
   border: 2px solid #000000;
@@ -121,7 +121,7 @@ footer {
   position: relative;
   left: 390px;
 }
-
+}
 .container-formulario {
   display: flex;
   flex-direction: column;
