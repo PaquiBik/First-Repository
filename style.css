@@ -162,11 +162,7 @@ label {
   justify-content: center;
 }
 
-main button {
-  display: flex;
-  position: relative;
-  left: 712px;
-}
+
 
 button[type=submit] {
   display: flex;
