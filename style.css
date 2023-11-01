@@ -235,13 +235,14 @@ button[type=submit]:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  align-items: center;
-  text-align: center;
-  align-self: center;
+
 }
 
 .grid-item {
   text-align: center;
+  
+  text-align: center;
+  align-self: center;
 }
 
 .grid-item img {
