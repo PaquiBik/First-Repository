@@ -234,14 +234,15 @@ button[type=submit]:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-position: relative
-top 150px;
-left: 150px;
+
 
 }
 
 .grid-item {
   text-align: center;
+  position: relative
+top 150px;
+left: 150px;
   
 }
 
