@@ -196,34 +196,7 @@ button[type=submit]:hover {
   background-color: transparent;
 }
 
-.box {
-  background-color: red;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  position: relative;
-  top: -300px;
-  border: 2px solid #251d1d;
-}
 
-.box:hover {
-  background-color: aqua;
-  border-radius: 50%;
-  cursor: grab;
-}
-
-.box:active {
-  background-color: #02ff24;
-  border: 4px solid #000c30;
-  rotate: 45deg;
-  border-radius: 0%;
-}
-
-.box ul {
-  color: #0de756;
-  font-family: Arial, Helvetica, sans-serif;
- 
-}
 
 #estudantes {
   background-color: #a8e93f;
