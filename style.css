@@ -229,12 +229,15 @@ button[type=submit]:hover {
 #estudantes {
   background-color: #a8e93f;
   padding: 20px;
-  display: flex;
+
 }
 }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  text-align: center;
+  align-self: center;
 }
 
 .grid-item {
