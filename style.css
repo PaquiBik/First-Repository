@@ -225,12 +225,12 @@ button[type=submit]:hover {
   position: relative;
   left: -33px;
 }
-
+@media screen and (max-width: 1296px) {
 #estudantes {
   background-color: #a8e93f;
   padding: 20px;
 }
-
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
