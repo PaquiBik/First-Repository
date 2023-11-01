@@ -40,10 +40,9 @@ main {
 }
 
 h1 {
-  position: relative;
+  
   text-align: center;
-  top: -20px;
-  font-size: 30px;
+  
 }
 
 img {
