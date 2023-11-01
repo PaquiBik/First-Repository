@@ -222,29 +222,25 @@ button[type=submit]:hover {
 .box ul {
   color: #0de756;
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  left: -33px;
+ 
 }
 
 #estudantes {
-  background-color: #a9b406;
+  background-color: #a8e93f;
   padding: 20px;
-}
 
+}
 .grid-container {
-  display: flex;
- 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+
 }
 
 .grid-item {
   text-align: center;
-}
-
-.grid-item img {
-  width: 70%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 7px;
+  
+  
 }
 
 .grid-item img {
