@@ -42,35 +42,36 @@
     
 
 
- <main id="estudantes">
+ <section id="estudantes">
+  <h2>Estudantes</h2>
   <div class="grid-container">
     <div class="grid-item">
-      <img src="fabio.foto.jpeg" alt="Foto 1">
-      <h3>Fabio D. Alves</h3>
-      <p>Tenho 16 anos, gosto de jogar jogos de FPS e gosto de programas, como criar este site, porém acabo passando alguma raiva até dar tudo certo e abrir um sorriso.</p>
+      <img src="Fabio.foto.jpeg" alt="Foto 1">
+      <h3>Nome do Estudante 1</h3>
+      <p>Descrição do Estudante 1</p>
     </div>
     <div class="grid-item">
-      <img src="luiz.foto.jpeg" alt="Foto 2">
-      <h3>Luiz H. Florencio</h3>
-      <p>estudande do CEP, tenho 16 anos, treino tanto na academia e tanto em jogos de FPS, apenas por diversão, almejo cursar ciencias contábeis na FAE.</p>
+      <img src="Luiz.foto.jpg" alt="Foto 2">
+      <h3>Nome do Estudante 2</h3>
+      <p>Descrição do Estudante 2</p>
     </div>
     <div class="grid-item">
-      <img src="isa.foto.jpeg" alt="Foto 3">
-      <h3>Isabelle Araújo</h3>
-      <p>tenho 15 anos, almejo cursar a faculdade de nutrição, uma grande apreciadora da culinária europeia, atleta e campeã da macrorregional de atletismo, representando o colégio estadual do Paraná.</p>
+      <img src="Isa.foto.jpg" alt="Foto 3">
+      <h3>Nome do Estudante 3</h3>
+      <p>Descrição do Estudante 3</p>
     </div>
     <div class="grid-item">
-      <img src="Lucas.foto.jpeg" alt="Foto 4">
-      <h3>lucas ishida</h3>
-      <p>tenho 16 anos, almejo cursar direito na UFPR, gosto de jogar jogos estilo FPS. </p>
+      <img src="Lucas.foto.jpg" alt="Foto 4">
+      <h3>Nome do Estudante 4</h3>
+      <p>Descrição do Estudante 4</p>
     </div>
     <div class="grid-item">
-      <img src="andre.foto.jpeg" alt="Foto 5">
-      <h3>André</h3>
-      <p>Tenho 16 anos e estudo no CEP.Gosto muito de  jogos estilo RPG e meu objetivo é cursar Engenharia da Computação na UFPR. e também gosto de praticar natação nas horas vagas.</p>
+      <img src="Andre.foto.jpeg" alt="Foto 5">
+      <h3>Nome do Estudante 5</h3>
+      <p>Descrição do Estudante 5</p>
     </div>
-  </div>
-</main>
+
+</section>
 
 
 <!--carrossel teste-->
@@ -185,3 +186,67 @@
     </script>
 </body>
 </html>
+<main id="estudantes">
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="fabio.foto.jpeg" alt="Foto 1">
+      <h3>Fabio D. Alves</h3>
+      <p>Tenho 16 anos, gosto de jogar jogos de FPS e gosto de programas, como criar este site, porém acabo passando alguma raiva até dar tudo certo e abrir um sorriso.</p>
+    </div>
+    <div class="grid-item">
+      <img src="luiz.foto.jpeg" alt="Foto 2">
+      <h3>Luiz H. Florencio</h3>
+      <p>estudande do CEP, tenho 16 anos, treino tanto na academia e tanto em jogos de FPS, apenas por diversão, almejo cursar ciencias contábeis na FAE.</p>
+    </div>
+    <div class="grid-item">
+      <img src="isa.foto.jpeg" alt="Foto 3">
+      <h3>Isabelle Araújo</h3>
+      <p>tenho 15 anos, almejo cursar a faculdade de nutrição, uma grande apreciadora da culinária europeia, atleta e campeã da macrorregional de atletismo, representando o colégio estadual do Paraná.</p>
+    </div>
+    <div class="grid-item">
+      <img src="Lucas.foto.jpeg" alt="Foto 4">
+      <h3>lucas ishida</h3>
+      <p>tenho 16 anos, almejo cursar direito na UFPR, gosto de jogar jogos estilo FPS. </p>
+    </div>
+    <div class="grid-item">
+      <img src="andre.foto.jpeg" alt="Foto 5">
+      <h3>André</h3>
+      <p>Tenho 16 anos e estudo no CEP.Gosto muito de  jogos estilo RPG e meu objetivo é cursar Engenharia da Computação na UFPR. e também gosto de praticar natação nas horas vagas.</p>
+    </div>
+  </div>
+</main>
+
+#estudantes {
+  background-color: #a8e93f;
+  padding: 20px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+
+}
+
+.grid-item {
+  text-align: center;
+  position: relative
+top 150px;
+left: 150px;
+  
+}
+
+.grid-item img {
+  width: 50%;
+  border-radius: 50%;
+  border: 5px solid #6410a8;
+ 
+ 
+}
+
+.grid-item img:hover {
+  transition: width 0, 3s, border 0, 3s;
+  width: 60%;
+  border: 5px solid #4b0a81;
+
+}

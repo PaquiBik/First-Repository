@@ -227,23 +227,24 @@ button[type=submit]:hover {
 }
 
 #estudantes {
-  background-color: #a8e93f;
+  background-color: #a9b406;
   padding: 20px;
-
 }
+
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-
-
+  display: flex;
+ 
 }
 
 .grid-item {
   text-align: center;
-  position: relative
-top 150px;
-left: 150px;
-  
+}
+
+.grid-item img {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 7px;
 }
 
 .grid-item img {
@@ -276,3 +277,4 @@ left: 150px;
     display: none;
   }
 }
+
