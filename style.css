@@ -229,6 +229,7 @@ button[type=submit]:hover {
 #estudantes {
   background-color: #a8e93f;
   padding: 20px;
+  display: flex;
 }
 }
 .grid-container {
