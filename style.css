@@ -49,9 +49,7 @@ h1 {
 img {
   width: 50px;
   display: flex;
-  position: relative;
-  left: 290px;
-  top: -80px;
+  
 }
 
 
@@ -162,7 +160,11 @@ label {
   justify-content: center;
 }
 
-
+main button {
+  display: flex;
+  position: relative;
+  left: 712px;
+}
 
 button[type=submit] {
   display: flex;
